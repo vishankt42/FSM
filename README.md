@@ -1,11 +1,15 @@
 # FSM
-# Getting Started with Create React App
+# Getting Started with installing project dependencies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `npm install`
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, 
+
+### `cd FSM-main OR FSM`
+
+you can run:
 
 ### `npm start`
 
@@ -15,10 +19,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### This Component inlcludes a form where user can dynamically input binary values. The "Process Input" button trigger the FSM process, based on input traverse around the states and atlast share the final or accepted state with %3 value.
+# Functionality
+
+### `This Component includes a form where user can dynamically input binary values. The "Process Input" button trigger the FSM process, based on input traverse around the states and atlast share the final or accepted state with %3 value.`
 
 ### testing
-The project includes Jest unit tests to ensure the correct functionality of the mode FSM component. To run the tests: npm test
+
+### `The project includes Jest unit tests to ensure the correct functionality of the mode FSM component. To run the tests: npm test`
 
 ### `npm test`
 
@@ -27,10 +34,6 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### Clone the repository
 https://github.com/vishankt42/FSM.git
-
-### cd to folder and install dependency
-cd FSM
-npm install 
 
 ### `npm run build`
 
@@ -41,10 +44,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-
-
-
-
-
-

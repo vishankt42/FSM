@@ -1,5 +1,5 @@
 import './App.css';
-import ModThree from './component/ModThree';
+import ModThree from './component/ModThreeFSM/ModThree';
 
 function App() {
 

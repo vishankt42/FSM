@@ -1,7 +1,6 @@
 import React from 'react';
 import { render, fireEvent, screen } from '@testing-library/react';
-import ModThree from './ModThree';
-
+import ModThree from '../../component/ModThreeFSM/ModThree';
 
 test('Default state and rendering', () => {
   const { getByLabelText, getByText } = render(<ModThree />);

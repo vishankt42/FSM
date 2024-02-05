@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 
 function ModThree() {
+  const initialState = 'S0';
   const [inputString, setInputString] = useState('');
-  const [currentState, setCurrentState] = useState('S0');
+  const [currentState, setCurrentState] = useState(initialState);
   const [currentModValue, setCurrentModValue] = useState(null);
   const [error, setError] = useState(null);
   const transitions = { //110 1010
@@ -12,8 +13,7 @@ function ModThree() {
   };
 
   const processInput = () => {
-   // console.log(currentState)
-    let statec = currentState;
+    let statec = initialState;
     var digit = parseInt(inputString, 2);
     setCurrentModValue(digit%3)
     for (let char of inputString) {
@@ -32,7 +32,6 @@ function ModThree() {
   };
 
   const handleInputChange = (event) => {
-    
     setInputString(event.target.value);
   };
 
